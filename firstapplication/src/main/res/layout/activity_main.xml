@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- My First Android Application-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.firstapplication.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/baby" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Happy Birthday Amma!"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#455A64"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="12dp"
+        />
+
+    <TextView
+        android:id="@+id/me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Mahathi"
+        android:textColor="#F50057"
+        android:textSize="36sp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="cursive"
+        android:padding="20dp"
+        />
+
+</RelativeLayout>
